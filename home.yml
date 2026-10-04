@@ -40,35 +40,46 @@
           title: Services
           sites:
             - title: Pihole
-              url: http://dns.home/admin/login
+              url: http://dns.multenett/admin/login
               icon: si:pi-hole
 
             - title: Truenas
-              url: http://10.0.0.24/
+              url: http://nas.multenett/ui
               icon: si:truenas
 
             - title: qBittorrent
-              url: http://10.0.0.24:8085/
+              url: http://qbit.multenett/
               icon: si:qbittorrent
 
             - title: Immich
-              url: http://10.0.0.24:30041
+              url: http://bilde.multenett/
               icon: si:immich
 
             - title: Navidrome
-              url: http://10.0.0.24:30043/
+              url: http://music.multenett/
               icon: sh:navidrome-light
 
             - title: Jellyfin
-              url: http://10.0.0.24:8096/
+              url: http://film.multenett/
               icon: si:jellyfin
+            
+            - title: Home Assistant
+              url: http://pus.multenett/
+              icon: si:home-assistant
 
+            - title: Audiobookshelf
+              url: http://bok.multenett/
+              icon: si:audiobookshelf
+            
+            - title: Kavita
+              url: http://manga.multenett/
+              icon: si:kavita
 
 #Bokmerker
 
         - type: bookmarks
           groups:
-            - title: General
+            - title:
               links:
                 - title: Protonmail
                   url: https://mail.proton.me/u/0/inbox
@@ -79,7 +90,30 @@
                 - title: GitHub
                   url: https://github.com/
 
-            - title: Wiki
+                - title: Protondrive
+                  url: https://drive.proton.me/u/0/
+
+                - title: Google Calendar
+                  url: https://calendar.google.com/calendar/u/0/r
+
+                - title: Google Keep
+                  url: https://keep.google.com/u/0/
+
+            - title:
+              links:
+                - title: Audiobook Shelf
+                  url: http://bok.multenett/
+
+                - title: BentoPDF
+                  url: http://pdf.multenett/
+
+                - title: Shoko-server
+                  url: http://10.0.0.24:30222/
+
+                - title: TailScale
+                  url: https://console.tailscale.com
+
+            - title:
               links:
                 - title: Wowhead
                   url: https://www.wowhead.com/
@@ -90,24 +124,14 @@
                 - title: Destiny Wiki
                   url: https://www.destinypedia.com/
 
-            - title: Social
-              links:
-                - title: Reddit
-                  url: https://www.reddit.com/
-
-                - title: Tractive
-                  url: https://my.tractive.com/
-
-                - title: Instagram
-                  url: https://www.instagram.com/
 
 #Videoer
 
 
-        - type: videos
-          channels:
-            - UCRcgy6GzDeccI7dkbbBna3Q #LEMMMINO
-            - UCzZO4F9Z9gOYoNIyL-XgYZQ #Dungeon Chill
+ #       - type: videos
+ #         channels:
+ #           - UCRcgy6GzDeccI7dkbbBna3Q #LEMMMINO
+ #           - UCzZO4F9Z9gOYoNIyL-XgYZQ #Dungeon Chill
 
 
 #Høyre
@@ -129,7 +153,7 @@
 #pihole stats
         - type: dns-stats
           service: pihole-v6
-          url: http://dns.home
+          url: http://dns.multenett
           username: admin
           password: your_password
           title: Pihole Stats
