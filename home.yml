@@ -65,7 +65,7 @@
             
             - title: Home Assistant
               url: http://pus.multenett/
-              icon: si:home-assistant
+              icon: si:homeassistant
 
             - title: Audiobookshelf
               url: http://bok.multenett/
@@ -73,7 +73,7 @@
             
             - title: Kavita
               url: http://manga.multenett/
-              icon: si:kavita
+              icon: sh:kavita-light
 
 #Bokmerker
 
@@ -112,6 +112,9 @@
 
                 - title: TailScale
                   url: https://console.tailscale.com
+
+                - title: Unify Network
+                  url: https://unifi.ui.com/
 
             - title:
               links:
