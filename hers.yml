@@ -16,13 +16,14 @@
               label: Tokyo
 #RSS feed
         - type: rss
-          title: RSS
+          title: Innenriks
           style: horisontal-cards
           collapse-after: 5
           feeds:
-            - url: https://www.nrk.no/toppsaker.rss
+            - url: https://www.nrk.no/innlandet/toppsaker.rss
               title: NRK
-
+            - url: https://www.h-a.no/service/rss/
+              title: HA
 #Søk
 
     - size: full
@@ -38,7 +39,7 @@
           sites:
 
             - title: Pus
-              url: http://pus.home/
+              url: http://pus.multenett/
               icon: sh:dynacat-light
 
             - title: Immich
@@ -53,7 +54,7 @@
 
         - type: bookmarks
           groups:
-            - title: General
+            - title: 
               links:
                 - title: Mail
                   url: https://outlook.office365.com/mail/
@@ -64,19 +65,11 @@
                 - title: Netflix
                   url: https://netflix.com/
 
-            - title: Fun
+            - title: 
               links:
                 - title: GoSuperModel
                   url: https://gosupermodel.com/
 
-                - title: Tractive
-                  url: https://my.tractive.com/
-
-                - title: Pus dashboard
-                  url: http://pus.home:30103/
-
-            - title: Social
-              links:
                 - title: Reddit
                   url: https://www.reddit.com/
 
@@ -85,6 +78,21 @@
 
                 - title: Instagram
                   url: https://www.instagram.com/
+
+            - title: 
+              links:
+                - title: Musikk
+                  url: http://music.multenett/
+
+                - title: Audiobooks
+                  url: http://bok.multenett/
+            
+                - title: Manga
+                  url: http://manga.multenett/
+
+                - title: BentoPDF
+                  url: http://pdf.multenett/
+
 
 #Videoer
 
